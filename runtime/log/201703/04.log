@@ -1,0 +1,3528 @@
+[ 2017-03-04T14:29:42+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] tp5.tpadmin.mmt/ [运行时间：0.039000s][吞吐率：25.64req/s] [内存消耗：2,363.45kb] [文件加载：44]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T14:29:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ log ] tp5.tpadmin.mmt/admin/login/index.html [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：2,410.62kb] [文件加载：45]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424; PHPSESSID=4o5hladdu6jb8fjolu9fb2lmp1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] ../application/admin/admin_themes/login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T14:29:42+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ log ] tp5.tpadmin.mmt/captcha.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,894.68kb] [文件加载：34]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424; PHPSESSID=4o5hladdu6jb8fjolu9fb2lmp1',
+  'referer' => 'http://tp5.tpadmin.mmt/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T14:29:49+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login.html
+[ log ] tp5.tpadmin.mmt/admin/login/login.html [运行时间：0.042000s][吞吐率：23.81req/s] [内存消耗：3,619.22kb] [文件加载：54]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2730855424; PHPSESSID=4o5hladdu6jb8fjolu9fb2lmp1',
+  'content-length' => '41',
+  'referer' => 'http://tp5.tpadmin.mmt/admin/login/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'VVVj',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`status` FROM `think_admin_user` WHERE  `username` = 'admin'  AND `password` = '0dfc7612f607db6c17fd99388e9e5f9c' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `think_admin_user`  SET `last_login_time`='2017-03-04 14:29:49',`last_login_ip`='127.0.0.1'  WHERE  `id` = 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T14:29:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] tp5.tpadmin.mmt/admin/index/index.html [运行时间：0.085000s][吞吐率：11.76req/s] [内存消耗：3,582.13kb] [文件加载：52]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424; PHPSESSID=4o5hladdu6jb8fjolu9fb2lmp1',
+  'referer' => 'http://tp5.tpadmin.mmt/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] ../application/admin/admin_themes/index\index.html [ array (
+  0 => 'menu',
+  1 => 'controller',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,73,74,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,58,59,60,61,62,56,63,64,65,66,67,57,68,69,70,71,72,75)  AND `type` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T14:30:06+08:00 ] 127.0.0.1 127.0.0.1 GET /web/index/detail/id/3
+[ log ] tp5.tpadmin.mmt/web/index/detail/id/3 [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：4,176.73kb] [文件加载：54]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424; PHPSESSID=4o5hladdu6jb8fjolu9fb2lmp1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->detail[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\detail.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 3 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T14:30:11+08:00 ] 127.0.0.1 127.0.0.1 GET /web/index/detail/id/3
+[ log ] tp5.tpadmin.mmt/web/index/detail/id/3 [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：3,921.41kb] [文件加载：52]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'thinkphp_show_page_trace=0|0; pgv_pvi=2730855424; PHPSESSID=4o5hladdu6jb8fjolu9fb2lmp1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->detail[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\detail.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 3 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T16:30:28+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] tp5.tpadmin.mmt/ [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,292.13kb] [文件加载：42]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T16:30:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ log ] tp5.tpadmin.mmt/admin/login/index.html [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：2,257.16kb] [文件加载：40]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424; PHPSESSID=8bdmn7u7uoirip2q55roqri4g5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] ../application/admin/admin_themes/login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T16:30:28+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ log ] tp5.tpadmin.mmt/captcha.html [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,821.62kb] [文件加载：32]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424; PHPSESSID=8bdmn7u7uoirip2q55roqri4g5',
+  'referer' => 'http://tp5.tpadmin.mmt/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '',
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T16:30:35+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login.html
+[ log ] tp5.tpadmin.mmt/admin/login/login.html [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：2,291.85kb] [文件加载：42]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424; PHPSESSID=8bdmn7u7uoirip2q55roqri4g5',
+  'content-length' => '41',
+  'referer' => 'http://tp5.tpadmin.mmt/admin/login/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'TPDR',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T16:30:42+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/login.html
+[ log ] tp5.tpadmin.mmt/admin/login/login.html [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：3,592.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424; PHPSESSID=8bdmn7u7uoirip2q55roqri4g5',
+  'content-length' => '41',
+  'referer' => 'http://tp5.tpadmin.mmt/admin/login/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'verify' => 'TBDR',
+)
+[ info ] [ RUN ] app\admin\controller\Login->login[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_admin_user` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`status` FROM `think_admin_user` WHERE  `username` = 'admin'  AND `password` = '0dfc7612f607db6c17fd99388e9e5f9c' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `think_admin_user`  SET `last_login_time`='2017-03-04 16:30:42',`last_login_ip`='127.0.0.1'  WHERE  `id` = 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T16:30:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] tp5.tpadmin.mmt/admin/index/index.html [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：3,498.98kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424; PHPSESSID=8bdmn7u7uoirip2q55roqri4g5',
+  'referer' => 'http://tp5.tpadmin.mmt/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] ../application/admin/admin_themes/index\index.html [ array (
+  0 => 'menu',
+  1 => 'controller',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_rule` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_auth_rule` WHERE  `status` = 1 ORDER BY `sort`  DESC,`id`  ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_auth_group_access` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`title`,`AuthGroup`.`rules` FROM `think_auth_group_access` `AuthGroupAccess` LEFT JOIN `think_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='1' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `condition`,`name` FROM `think_auth_rule` WHERE  `id` IN (1,2,3,73,74,5,6,7,8,9,10,11,12,39,40,41,42,43,14,13,20,21,22,23,24,15,25,26,27,28,29,30,16,17,44,45,46,47,48,18,49,50,51,52,53,19,31,32,33,34,35,36,37,54,55,58,59,60,61,62,56,63,64,65,66,67,57,68,69,70,71,72,75)  AND `type` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T16:30:58+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] m.tpadmin.mmt/ [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：3,810.50kb] [文件加载：50]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'web'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'm.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T16:55:43+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] tp5.tpadmin.mmt/ [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：3,809.85kb] [文件加载：50]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424; PHPSESSID=8bdmn7u7uoirip2q55roqri4g5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T16:56:12+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] m.tpadmin.mmt/ [运行时间：0.018000s][吞吐率：55.56req/s] [内存消耗：1,877.99kb] [文件加载：38]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'phone'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phone',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'm.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T16:56:40+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] m.tpadmin.mmt/ [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：3,810.63kb] [文件加载：50]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'phone'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'phone',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'm.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\phone\controller\Index->index[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\phone\controller\Index.php ]
+[ info ] [ VIEW ] ../application/phone/view/default/index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T16:57:06+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] tp5.tpadmin.mmt/ [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：3,592.33kb] [文件加载：48]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'cookie' => 'pgv_pvi=2730855424; PHPSESSID=8bdmn7u7uoirip2q55roqri4g5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T17:37:11+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] tp5.tpadmin.mmt/ [运行时间：0.099000s][吞吐率：10.10req/s] [内存消耗：3,595.77kb] [文件加载：48]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T17:37:29+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.161000s][吞吐率：6.21req/s] [内存消耗：3,956.30kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.061000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.038000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.005000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:38:44+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：3,956.16kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:40:50+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.068000s][吞吐率：14.71req/s] [内存消耗：3,956.20kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:40:56+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:40:57+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:42:41+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.069000s][吞吐率：14.49req/s] [内存消耗：3,956.20kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:43:10+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.068000s][吞吐率：14.71req/s] [内存消耗：3,956.20kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:43:56+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：3,956.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:44:59+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：3,956.34kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:46:49+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：3,956.27kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:46:51+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：3,728.93kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:46:53+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：3,728.93kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:47:03+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：3,956.27kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:47:19+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：3,956.30kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:47:40+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：3,956.32kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:48:52+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：3,956.36kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:49:23+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：3,956.41kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:49:51+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.070000s][吞吐率：14.29req/s] [内存消耗：3,956.43kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:49:59+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:50:00+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T17:50:01+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.074000s][吞吐率：13.51req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:14:58+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/detail/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/detail/id/2 [运行时间：0.067000s][吞吐率：14.93req/s] [内存消耗：3,954.53kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2372.400 QQBrowser/9.5.10548.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->detail[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\detail.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:15:15+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2
+[ log ] tp5.tpadmin.mmt/web/Index/base2 [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：3,704.32kb] [文件加载：50]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2372.400 QQBrowser/9.5.10548.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T18:15:18+08:00 ] 127.0.0.1 127.0.0.1 GET /web/index/index.html
+[ log ] tp5.tpadmin.mmt/web/index/index.html [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：3,604.88kb] [文件加载：48]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'referer' => 'http://tp5.tpadmin.mmt/web/Index/base2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.104 Safari/537.36 Core/1.53.2372.400 QQBrowser/9.5.10548.400',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->index[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-03-04T18:15:36+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.066000s][吞吐率：15.15req/s] [内存消耗：3,728.85kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:16:55+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:17:08+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:18:15+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:18:39+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:11+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.066000s][吞吐率：15.15req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:12+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.065000s][吞吐率：15.38req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:12+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:12+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:12+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.062000s][吞吐率：16.13req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:13+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:13+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.070000s][吞吐率：14.29req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:13+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:13+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.073000s][吞吐率：13.70req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:46+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.053000s][吞吐率：18.87req/s] [内存消耗：3,956.45kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:46+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:47+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:47+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:47+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.066000s][吞吐率：15.15req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:47+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:47+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:48+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:48+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:48+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:48+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:48+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:19:49+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：3,728.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:20:57+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.064000s][吞吐率：15.63req/s] [内存消耗：3,956.53kb] [文件加载：51]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:20:57+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:20:58+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:20:58+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:20:58+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:20:58+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:20:58+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:20:59+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:20:59+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:20:59+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:20:59+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:20:59+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:21:00+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.062000s][吞吐率：16.13req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:21:00+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:21:00+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:21:54+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.062000s][吞吐率：16.13req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:21:55+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.062000s][吞吐率：16.13req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:22:45+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:23:09+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:23:36+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：3,728.97kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-03-04T18:26:32+08:00 ] 127.0.0.1 127.0.0.1 GET /web/Index/base2/id/2
+[ log ] tp5.tpadmin.mmt/web/Index/base2/id/2 [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：3,728.38kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\thinkphp5\tp5.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'web',
+    1 => 'Index',
+    2 => 'base2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'tp5.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\web\controller\Index->base2[ D:\php\www\thinkphp5\tp5.tpadmin.mmt\application\web\controller\Index.php ]
+[ info ] [ VIEW ] ../application/web/view/default/index\base2.html [ array (
+  0 => 'title',
+  1 => 'results',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=think_admin;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `think_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `think_article` WHERE  `id` = 2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------

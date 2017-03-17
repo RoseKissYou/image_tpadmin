@@ -1,0 +1,32 @@
+[ 2017-03-09T12:12:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] image.tpadmin.mmt/ [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：3,680.70kb] [文件加载：49]
+[ info ] [ LANG ] D:\php\www\image\image.tpadmin.mmt\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0',
+  'host' => 'image.tpadmin.mmt',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\php\www\image\image.tpadmin.mmt\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'image_tpadmin'[D:\php\www\image\image.tpadmin.mmt\thinkphp\library\think\db\Connection.php:300]
+
+---------------------------------------------------------------

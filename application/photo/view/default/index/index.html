@@ -1,0 +1,49 @@
+{extend name="base" /}
+{block name="body"}
+<!-- 主体 -->
+<div class="bk10"></div>
+
+hello
+
+
+<!---//End-header---->
+<!---start-content---->
+<div class="content">
+    <div class="wrap">
+        <div id="main" role="main">
+            <ul id="tiles">
+                <!-- These are our grid blocks -->
+
+                {foreach name="results" item="result"}
+
+                <li onclick="location.href='{:url('photo/index/detail',['id'=>$result['id']])}';">
+                    <img style="width:300px;height:auto;" src="{$result.thumb}" >
+                    <div class="post-info">
+                        <div class="post-basic-info">
+                            <h3><a href="{:url('index/index/detail',['id'=>$result['id']])}">{$result.title}</a></h3>
+                            <span><a href="{:url('index/index/detail',['id'=>$result['id']])}"><label>
+                            </label>{$result.title}</a></span>
+                            <p>{$result.title}</p>
+                        </div>
+                        <div class="post-info-rate-share">
+                            <div class="rateit">
+                                <span> </span>
+                            </div>
+                            <div class="post-share">
+                                <span> </span>
+                            </div>
+                            <div class="clear"> </div>
+                        </div>
+                    </div>
+                </li>
+                {/foreach}
+
+                <!-- End of grid blocks -->
+            </ul>
+        </div>
+    </div>
+</div>
+<!---//End-content---->
+
+
+{/block}

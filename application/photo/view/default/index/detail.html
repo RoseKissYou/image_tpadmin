@@ -1,0 +1,32 @@
+
+
+
+{extend name="base" /}
+
+
+{block name="body"}
+
+
+<div class="article-content">
+    {foreach name="results" item="result"}
+    <div class="c_l">
+        <h2>{$result.title}</h2>
+        {$result.content}
+    </div>
+    <div class="content">
+        {foreach name="photos" item="photo"}
+
+        <div class="box-img">
+            <img style="width:80%;height:auto;margin:0 auto 0;" title="提示：点击图片，查看原尺寸高清大图" src="{$photo}" alt="{$result.title}" class="content_img">
+        </div>
+
+        {/foreach}
+    </div>
+
+    {/foreach}
+</div>
+
+<!--这里对图片数组进行分组分页显示-->
+
+
+{/block}

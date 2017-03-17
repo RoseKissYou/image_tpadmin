@@ -1,0 +1,47 @@
+
+<html>
+<head>
+    <title>{$title.title}</title>
+    <meta charset="utf-8">
+    {block name="css"}{/block}
+    <!--底部文字广告-->
+    <link href="__CSS__/al1.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="__CSS__/gdt-style.css">
+    <script type="text/javascript">
+        arr_wx = ['cow060911', 'qqtang766', 'qqtang036', 'qqtang021'];
+        var wx_index = Math.floor((Math.random() * arr_wx.length));
+        var stxlwx = arr_wx[wx_index];
+    </script>
+<body>
+<div class="side-bar">
+    <img class="icon-qq" style="width:138px;height:138px;" src="__STATIC__/images/0.gif" alt="wechat">
+</div>
+
+这是手机端访问的
+
+<div class="w_head">
+    <img src="__STATIC__/images/qb_icon.png" style="float:left;"/>
+    <p>男人肾虚,别乱治,添加微信:
+        <span class="wx"><span ontouchstart="_czc.push(['_trackEvent', '微信', '复制']);"><script>document.write(stxlwx);</script></span></span>（←长按复制/拷贝）
+        <button><a class="ui-link" href="weixin://qr/GHUuIcDEiv71h9FCnyA8" target="_blank"><b style="color:#ff0000">打开微信</b></a></button>,添加微信好友，或扫描二维码,每天仅接受前30名免费咨询</p>
+</div>
+
+<!--主体-->
+{block name="body"}{/block}
+
+<!--底部-->
+<div class="layui-footer footer">
+    <div class="layui-main">
+        <p>2016 &copy; <a href="https://github.com/xiayulei/think_admin" target="_blank">Think Admin</a></p>
+    </div>
+</div>
+
+
+{block name="js"}{/block}
+<!--页面JS脚本-->
+{block name="script"}{/block}
+</body>
+</html>
+
+
+

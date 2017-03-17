@@ -1,0 +1,22 @@
+{extend name="base" /}
+{block name="body"}
+<!-- 主体 -->
+<div class="bk10"></div>
+
+<div class="zuixin">精选美图</div>
+<div class="boxs">
+    <ul class="img">
+        {foreach name="results" item="result"}
+        <li>
+            <a href="{:url('index/index/detail',['id'=>$result['id']])}" target="_blank">
+                <img src="{$result.thumb}" alt="{$result.title}" width="{$result.width}" height="{$result.height}" >
+            </a>
+            <p>模特：<a href="http://www.meitulu.com/t/yanni/" target="_blank" class="tags">{$result.author}</a></p>
+            <p class="p_title"><a href="{:url('index/index/detail',['id'=>$result['id']])}" target="_blank">{$result.title}</a></p>
+        </li>
+        {/foreach}
+    </ul>
+
+</div>
+
+{/block}

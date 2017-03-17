@@ -1,0 +1,59 @@
+{extend name="base" /}
+{block name="body"}
+<div class="layui-body">
+    <!--tab标签-->
+    <div class="layui-tab layui-tab-brief">
+        <ul class="layui-tab-title">
+            <li class="layui-this">图片管理</li>
+            <li class=""><a href="{:url('admin/photo/add')}">添加图片</a></li>
+        </ul>
+        <div class="layui-tab-content">
+
+
+            <hr>
+
+            <form action="" method="post" class="ajax-form">
+                   <div class="layui-tab-item layui-show">
+                    <table class="layui-table">
+                        <thead>
+                        <tr>
+                            <th style="width: 15px;"><input type="checkbox" class="check-all"></th>
+                            <th style="width: 30px;">ID</th>
+
+                            <th>标题</th>
+
+                            <th>作者</th>
+                            <th>是否显示</th>
+                         
+                            <th>发布时间</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {foreach name="article_list" item="vo"}
+                        <tr>
+                            <td><input type="checkbox" name="ids[]" value="{$vo.id}"></td>
+                            <td>{$vo.id}</td>
+                           
+                            <td>{$vo.title}</td>
+
+                            <td>{$vo.author}</td>
+
+                            <td>{php}echo $vo['status']==1 ? '不显示' : '显示';{/php}</td>
+                            <td>{$vo.create_time}</td>
+                            <td>
+                                <a href="{:url('admin/photo/edit',['id'=>$vo['id']])}" class="layui-btn layui-btn-normal layui-btn-mini">编辑</a>
+                                <a href="{:url('admin/photo/delete',['id'=>$vo['id']])}" class="layui-btn layui-btn-danger layui-btn-mini ajax-delete">删除</a>
+                            </td>
+                        </tr>
+                        {/foreach}
+                        </tbody>
+                    </table>
+                    <!--分页-->
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{/block}
